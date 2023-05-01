@@ -14,3 +14,7 @@ Host someinternalhost
     ProxyJump appuser@62.84.125.92
     IdentityFile ~/.ssh/appuser
     ForwardAgent yes
+
+3. Данные для подключения:
+bastion_IP = 62.84.125.92
+someinternalhost_IP = 10.128.0.19
